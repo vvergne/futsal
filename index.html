@@ -6,64 +6,144 @@
     <title> page futsal </title>
  </head>
  <body>
+   <header>
+   </header>
    <div class="container">
      <div class="team1">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 1  <input type="text"id="jf1" value=""></input> <p id="p1t1">  </p></li>
+         <li >joueur 2  <input type="text"id="jf2"value=""></input><p id="p2t1"></p></li>
+         <li >joueur 3  <input type="text"id="jf3"value=""></input><p id="p3t1"></p></li>
+         <li >joueur 4  <input type="text"id="jf4"value=""></input><p id="p4t1"></p></li>
+         <li >joueur 5  <input type="text"id="jf5"value=""></input><p id="p5t1"></p></li>
        </ul>
+       <button onclick="javascript:button();">Cliquer pour valider</button>
      </div>
      <div class="team2">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 6  <input type="text"id="jf6"value=""></input><p id="p1t2"></p></li>
+         <li >joueur 7  <input type="text"id="jf7"value=""></input><p id="p2t2"></p></li>
+         <li >joueur 8  <input type="text"id="jf8"value=""></input><p  id="p3t2"></p></li>
+         <li >joueur 9  <input type="text"id="jf9"value=""></input><p  id="p4t2"></p></li>
+         <li >joueur 10  <input type="text"id="jf10"value=""></input><p  id="p5t2"></p></li>
        </ul>
+       <button onclick="javascript:button2();">Cliquer pour valider</button>
      </div>
      <div class="team3">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 11 <input type="text"id="jf11"value=""></input><p  id="p1t3"></p></li>
+         <li >joueur 12 <input type="text"id="jf12"value=""></input><p  id="p2t3"></p></li>
+         <li >joueur 13 <input type="text"id="jf13"value=""></input><p  id="p3t3"></p></li>
+         <li >joueur 14 <input type="text"id="jf14"value=""></input><p  id="p4t3"></p></li>
+         <li >joueur 15 <input type="text"id="jf15"value=""></input><p  id="p5t3"></p></li>
        </ul>
+       <button onclick="javascript:button3();">Cliquer pour valider</button>
      </div>
      <div class="team4">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 16 <input type="text"id="jf16"value=""></input><p  id="p1t4"></p></li>
+         <li >joueur 17 <input type="text"id="jf17"value=""></input><p  id="p2t4"></p></li>
+         <li >joueur 18 <input type="text"id="jf18"value=""></input><p  id="p3t4"></p></li>
+         <li >joueur 19 <input type="text"id="jf19"value=""></input><p  id="p4t4"></p></li>
+         <li >joueur 20 <input type="text"id="jf20"value=""></input><p  id="p5t4"></p></li>
        </ul>
+       <button onclick="javascript:button4();">Cliquer pour valider</button>
      </div>
      <div class="team5">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 21 <input type="text"id="jf21"value=""></input><p  id="p1t5"></p></li>
+         <li >joueur 22 <input type="text"id="jf22"value=""></input><p  id="p2t5"></p></li>
+         <li >joueur 23 <input type="text"id="jf23"value=""></input><p  id="p3t5"></p></li>
+         <li >joueur 24 <input type="text"id="jf24"value=""></input><p  id="p4t5"></p></li>
+         <li >joueur 25 <input type="text"id="jf25"value=""></input><p  id="p5t5"></p></li>
        </ul>
+       <button onclick="javascript:button5();">Cliquer pour valider</button>
      </div>
      <div class="team6">
        <ul>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
-         <li class=""></li>
+         <li >joueur 26 <input type="text"id="jf26"value=""></input><p  id="p1t6"></p></li>
+         <li >joueur 27 <input type="text"id="jf27"value=""></input><p  id="p2t6"></p></li>
+         <li >joueur 28 <input type="text"id="jf28"value=""></input><p  id="p3t6"></p></li>
+         <li >joueur 29 <input type="text"id="jf29"value=""></input><p  id="p4t6"></p></li>
+         <li >joueur 30 <input type="text"id="jf30"value=""></input><p  id="p5t6"></p></li>
        </ul>
+       <button onclick="javascript:button6();">Cliquer pour valider</button>
      </div>
    </div>
 
+<script>
+function button() {
+  var joueur1 = document.getElementById("jf1").value;
+document.getElementById("p1t1").innerHTML=joueur1;
+var joueur2 = document.getElementById("jf2").value;
+document.getElementById("p2t1").innerHTML=joueur2;
+var joueur3 = document.getElementById("jf3").value;
+document.getElementById("p3t1").innerHTML=joueur3;
+var joueur4 =document.getElementById('jf4').value;
+document.getElementById('p4t1').innerHTML=joueur4;
+var joueur5 =document.getElementById("jf5").value;
+document.getElementById('p5t1').innerHTML=joueur5;
+}
+function button2() {
+var joueur6=document.getElementById('jf6').value;
+document.getElementById("p1t2").innerHTML=joueur6;
+var joueur7=document.getElementById('jf7').value;
+document.getElementById("p2t2").innerHTML=joueur7;
+var joueur8=document.getElementById('jf8').value;
+document.getElementById("p3t2").innerHTML=joueur8;
+var joueur9=document.getElementById('jf9').value;
+document.getElementById("p4t2").innerHTML=joueur9;
+var joueur10=document.getElementById('jf10').value;
+document.getElementById("p5t2").innerHTML=joueur10;
+}
+function button3() {
+var joueur11=document.getElementById('jf11').value;
+document.getElementById("p1t3").innerHTML=joueur11;
+var joueur12=document.getElementById('jf12').value;
+document.getElementById("p2t3").innerHTML=joueur12;
+var joueur13=document.getElementById('jf13').value;
+document.getElementById("p3t3").innerHTML=joueur13;
+var joueur14=document.getElementById('jf14').value;
+document.getElementById("p4t3").innerHTML=joueur14;
+var joueur15=document.getElementById('jf15').value;
+document.getElementById("p5t3").innerHTML=joueur15;
+}
+function button4() {
+var joueur16=document.getElementById('jf16').value;
+document.getElementById("p1t4").innerHTML=joueur16;
+var joueur17=document.getElementById('jf17').value;
+document.getElementById("p2t4").innerHTML=joueur17;
+var joueur18=document.getElementById('jf18').value;
+document.getElementById("p3t4").innerHTML=joueur18;
+var joueur19=document.getElementById('jf19').value;
+document.getElementById("p4t4").innerHTML=joueur19;
+var joueur20=document.getElementById('jf20').value;
+document.getElementById("p5t4").innerHTML=joueur20;
+}
+function button5() {
+var joueur21=document.getElementById('jf21').value;
+document.getElementById("p1t5").innerHTML=joueur21;
+var joueur22=document.getElementById('jf22').value;
+document.getElementById("p2t5").innerHTML=joueur22;
+var joueur23=document.getElementById('jf23').value;
+document.getElementById("p3t5").innerHTML=joueur23;
+var joueur24=document.getElementById('jf24').value;
+document.getElementById("p4t5").innerHTML=joueur24;
+var joueur25=document.getElementById('jf25').value;
+document.getElementById("p5t5").innerHTML=joueur25;
+}
+function button6() {
+var joueur26=document.getElementById('jf26').value;
+document.getElementById("p1t6").innerHTML=joueur26;
+var joueur27=document.getElementById('jf27').value;
+document.getElementById("p2t6").innerHTML=joueur27;
+var joueur28=document.getElementById('jf28').value;
+document.getElementById("p3t6").innerHTML=joueur28;
+var joueur29=document.getElementById('jf29').value;
+document.getElementById("p4t6").innerHTML=joueur29;
+var joueur30=document.getElementById('jf30').value;
+document.getElementById("p5t6").innerHTML=joueur30;
+}
 </script>
-<button onclick="javascript:button();">Qui sera l'élu ?</button>
 </body>
 </html>
