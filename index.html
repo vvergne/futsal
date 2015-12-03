@@ -10,6 +10,7 @@
    </header>
    <div class="container">
      <div class="team1">
+       <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 1  <input type="text"id="jf1" value=""></input> <p id="p1t1">  </p></li>
          <li >joueur 2  <input type="text"id="jf2"value=""></input><p id="p2t1"></p></li>
@@ -20,6 +21,7 @@
        <button onclick="javascript:button();">Cliquer pour valider</button>
      </div>
      <div class="team2">
+      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 6  <input type="text"id="jf6"value=""></input><p id="p1t2"></p></li>
          <li >joueur 7  <input type="text"id="jf7"value=""></input><p id="p2t2"></p></li>
@@ -30,6 +32,7 @@
        <button onclick="javascript:button2();">Cliquer pour valider</button>
      </div>
      <div class="team3">
+      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 11 <input type="text"id="jf11"value=""></input><p  id="p1t3"></p></li>
          <li >joueur 12 <input type="text"id="jf12"value=""></input><p  id="p2t3"></p></li>
@@ -40,6 +43,7 @@
        <button onclick="javascript:button3();">Cliquer pour valider</button>
      </div>
      <div class="team4">
+    <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 16 <input type="text"id="jf16"value=""></input><p  id="p1t4"></p></li>
          <li >joueur 17 <input type="text"id="jf17"value=""></input><p  id="p2t4"></p></li>
@@ -50,6 +54,7 @@
        <button onclick="javascript:button4();">Cliquer pour valider</button>
      </div>
      <div class="team5">
+       <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 21 <input type="text"id="jf21"value=""></input><p  id="p1t5"></p></li>
          <li >joueur 22 <input type="text"id="jf22"value=""></input><p  id="p2t5"></p></li>
@@ -60,6 +65,7 @@
        <button onclick="javascript:button5();">Cliquer pour valider</button>
      </div>
      <div class="team6">
+      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
        <ul>
          <li >joueur 26 <input type="text"id="jf26"value=""></input><p  id="p1t6"></p></li>
          <li >joueur 27 <input type="text"id="jf27"value=""></input><p  id="p2t6"></p></li>
@@ -73,6 +79,8 @@
 
 <script>
 function button() {
+  var team1 = document.getElementById("team1").value;
+  document.getElementById("teamname1").innerHTML=team1;
   var joueur1 = document.getElementById("jf1").value;
 document.getElementById("p1t1").innerHTML=joueur1;
 var joueur2 = document.getElementById("jf2").value;
