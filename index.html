@@ -21,7 +21,7 @@
        <button onclick="javascript:button();">Cliquer pour valider</button>
      </div>
      <div class="team2">
-      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
+      <p id="teamname2">Saisissez votre nom d'équipe<input type="text" value="" id="team2"></input></p>
        <ul>
          <li >joueur 6  <input type="text"id="jf6"value=""></input><p id="p1t2"></p></li>
          <li >joueur 7  <input type="text"id="jf7"value=""></input><p id="p2t2"></p></li>
@@ -32,7 +32,7 @@
        <button onclick="javascript:button2();">Cliquer pour valider</button>
      </div>
      <div class="team3">
-      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
+      <p id="teamname3">Saisissez votre nom d'équipe<input type="text" value="" id="team3"></input></p>
        <ul>
          <li >joueur 11 <input type="text"id="jf11"value=""></input><p  id="p1t3"></p></li>
          <li >joueur 12 <input type="text"id="jf12"value=""></input><p  id="p2t3"></p></li>
@@ -43,7 +43,7 @@
        <button onclick="javascript:button3();">Cliquer pour valider</button>
      </div>
      <div class="team4">
-    <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
+    <p id="teamname4">Saisissez votre nom d'équipe<input type="text" value="" id="team4"></input></p>
        <ul>
          <li >joueur 16 <input type="text"id="jf16"value=""></input><p  id="p1t4"></p></li>
          <li >joueur 17 <input type="text"id="jf17"value=""></input><p  id="p2t4"></p></li>
@@ -54,7 +54,7 @@
        <button onclick="javascript:button4();">Cliquer pour valider</button>
      </div>
      <div class="team5">
-       <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
+       <p id="teamname5">Saisissez votre nom d'équipe<input type="text" value="" id="team5"></input></p>
        <ul>
          <li >joueur 21 <input type="text"id="jf21"value=""></input><p  id="p1t5"></p></li>
          <li >joueur 22 <input type="text"id="jf22"value=""></input><p  id="p2t5"></p></li>
@@ -65,7 +65,7 @@
        <button onclick="javascript:button5();">Cliquer pour valider</button>
      </div>
      <div class="team6">
-      <p id="teamname1">Saisissez votre nom d'équipe<input type="text" value="" id="team1"></input></p>
+      <p id="teamname6">Saisissez votre nom d'équipe<input type="text" value="" id="team6"></input></p>
        <ul>
          <li >joueur 26 <input type="text"id="jf26"value=""></input><p  id="p1t6"></p></li>
          <li >joueur 27 <input type="text"id="jf27"value=""></input><p  id="p2t6"></p></li>
@@ -76,7 +76,36 @@
        <button onclick="javascript:button6();">Cliquer pour valider</button>
      </div>
    </div>
-
+   <div class="match1"><div></div><div></div></div>
+   <div class="match2"><div></div><div></div></div>
+   <div class="match3"><div></div><div></div></div>
+   <div class="match4"><div></div><div></div></div>
+   <div class="match5"><div></div><div></div></div>
+   <div class="match6"><div></div><div></div></div>
+   <div class="match7"><div></div><div></div></div>
+   <div class="match8"><div></div><div></div></div>
+   <div class="match9"><div></div><div></div></div>
+   <div class="match10"><div></div><div></div></div>
+   <div class="match11"><div></div><div></div></div>
+   <div class="match12"><div></div><div></div></div>
+   <div class="match13"><div></div><div></div></div>
+   <div class="match14"><div></div><div></div></div>
+   <div class="match15"><div></div><div></div></div>
+   <div class="match16"><div></div><div></div></div>
+   <div class="match17"><div></div><div></div></div>
+   <div class="match18"><div></div><div></div></div>
+   <div class="match19"><div></div><div></div></div>
+   <div class="match20"><div></div><div></div></div>
+   <div class="match21"><div></div><div></div></div>
+   <div class="match22"><div></div><div></div></div>
+   <div class="match23"><div></div><div></div></div>
+   <div class="match24"><div></div><div></div></div>
+   <div class="match25"><div></div><div></div></div>
+   <div class="match26"><div></div><div></div></div>
+   <div class="match27"><div></div><div></div></div>
+   <div class="match28"><div></div><div></div></div>
+   <div class="match29"><div></div><div></div></div>
+   <div class="match30"><div></div><div></div></div>
 <script>
 function button() {
   var team1 = document.getElementById("team1").value;
@@ -93,6 +122,8 @@ var joueur5 =document.getElementById("jf5").value;
 document.getElementById('p5t1').innerHTML=joueur5;
 }
 function button2() {
+  var team2 = document.getElementById("team2").value;
+  document.getElementById("teamname2").innerHTML=team2;
 var joueur6=document.getElementById('jf6').value;
 document.getElementById("p1t2").innerHTML=joueur6;
 var joueur7=document.getElementById('jf7').value;
@@ -105,6 +136,8 @@ var joueur10=document.getElementById('jf10').value;
 document.getElementById("p5t2").innerHTML=joueur10;
 }
 function button3() {
+  var team3 = document.getElementById("team3").value;
+  document.getElementById("teamname3").innerHTML=team3;
 var joueur11=document.getElementById('jf11').value;
 document.getElementById("p1t3").innerHTML=joueur11;
 var joueur12=document.getElementById('jf12').value;
@@ -117,6 +150,8 @@ var joueur15=document.getElementById('jf15').value;
 document.getElementById("p5t3").innerHTML=joueur15;
 }
 function button4() {
+  var team4 = document.getElementById("team4").value;
+  document.getElementById("teamname4").innerHTML=team4;
 var joueur16=document.getElementById('jf16').value;
 document.getElementById("p1t4").innerHTML=joueur16;
 var joueur17=document.getElementById('jf17').value;
@@ -129,6 +164,8 @@ var joueur20=document.getElementById('jf20').value;
 document.getElementById("p5t4").innerHTML=joueur20;
 }
 function button5() {
+  var team5 = document.getElementById("team5").value;
+  document.getElementById("teamname5").innerHTML=team5;
 var joueur21=document.getElementById('jf21').value;
 document.getElementById("p1t5").innerHTML=joueur21;
 var joueur22=document.getElementById('jf22').value;
@@ -141,6 +178,8 @@ var joueur25=document.getElementById('jf25').value;
 document.getElementById("p5t5").innerHTML=joueur25;
 }
 function button6() {
+  var team6 = document.getElementById("team6").value;
+  document.getElementById("teamname6").innerHTML=team6;
 var joueur26=document.getElementById('jf26').value;
 document.getElementById("p1t6").innerHTML=joueur26;
 var joueur27=document.getElementById('jf27').value;
